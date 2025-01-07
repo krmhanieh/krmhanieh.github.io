@@ -22,7 +22,10 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Hanieh Karimi"
 description              : "An amazing website."
-permalink                : /notion-page/
+title: My Notion Page
+layout: single
+permalink: /
+
 url                      : "https://haniehkarimi.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
