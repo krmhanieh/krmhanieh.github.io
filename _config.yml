@@ -23,8 +23,8 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Hanieh Karimi"
 description              : "An amazing website."
 
-layout: single
-permalink: /
+layout                   : single
+permalink                : /
 
 url                      : "https://haniehkarimi.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
