@@ -1,7 +1,7 @@
 ---
 title: My Notion Page
 layout: single
-permalink: /
+permalink: /notion/
 ---
 
 Here is an embedded view of my Notion page:
