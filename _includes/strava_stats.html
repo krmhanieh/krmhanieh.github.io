@@ -1,10 +1,10 @@
 <script>
     async function fetchStravaStats() {
-        const accessToken = "3849d2c9beae158b23491c1ffae650e306e2e1c3";  // Your actual token
+        const accessToken = "685ff8f9a16dcb139443d1107ed420d8ad595fb9";  // Your actual token
         const athleteId = "121036987";  // Your actual Athlete ID
     
         const response = await fetch(`https://www.strava.com/api/v3/athletes/121036987/stats`, {
-            headers: { "Authorization": `Bearer 3849d2c9beae158b23491c1ffae650e306e2e1c3` }
+            headers: { "Authorization": `Bearer 685ff8f9a16dcb139443d1107ed420d8ad595fb9` }
         });
     
         if (!response.ok) {
