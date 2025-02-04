@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -26,7 +26,7 @@ url                      : "https://haniehkarimi.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : 
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -112,16 +112,22 @@ analytics:
 
 
 # Site Author
+
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Hanieh Karimi"
+  avatar           : "/assets/images/2.jpg"
+  #bio              : "PhD student, Space Physics."
+  bio              : "PhD student, Space Physics<br>University of New Hampshire"
+
+  #institution      : "University of New Hampshire"
+  #location         : "<a href='https://maps.app.goo.gl/8XiMSH4fQ1LrXSZNA' target=>Durham, NH</a>"
+  #location         : "<a href='https://maps.app.goo.gl/8XiMSH4fQ1LrXSZNA' target='_blank'>Durham, NH</a>"
+  location         : "Durham, NH"
+  email            : "mailtohanieh.karimi@unh.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailtohanieh.karimi@unh.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -133,10 +139,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/krmhanieh"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/krmhanieh/"
 
 # Site Footer
 footer:
@@ -158,7 +164,10 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: https://www.instagram.com/krmhanieh/
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google"
+      url: https://scholar.google.com/citations?user=NqmK13EAAAAJ&hl=en
 
 
 # Reading Files
@@ -323,3 +332,4 @@ defaults:
       comments: # true
       share: true
       related: true
+      

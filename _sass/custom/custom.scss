@@ -1,0 +1,82 @@
+/* Apply global font size and justification */
+body {
+    font-size: 18px; /* Adjust as needed */
+  }
+  
+  /* Justify text and set font size for all paragraphs */
+  p {
+    font-size: 16px; /* Make text smaller */
+    line-height: 1.6; /* Improve readability */
+    /*text-align: justify; /* Justify text */
+  }
+  
+  /* Reduce heading sizes for consistency */
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  body {
+    font-family: "Times New Roman", Times, serif;
+  }
+  body {
+    background-color: #cbcef1e4; // Sand color
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    background-blend-mode: multiply;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://www.transparenttextures.com/patterns/noise-pattern.png");
+    opacity: 0.2; /* Adjust for intensity */
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .photo-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  /* Soft shadow for analog look */
+    filter: contrast(95%) brightness(95%) saturate(110%) sepia(10%);  /* Film-like tone */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .photo-grid img:hover {
+    transform: scale(1.03);  /* Subtle zoom effect */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  video {
+    width: 100%;
+    max-width: 800px;  /* Adjust this size if needed */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }  
