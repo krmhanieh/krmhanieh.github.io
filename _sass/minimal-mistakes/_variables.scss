@@ -32,12 +32,19 @@ $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
+<<<<<<< HEAD
 //$global-font-family: $sans-serif !default;
 //$header-font-family: $sans-serif !default;
 //$caption-font-family: $serif !default;
 $global-font-family: "Times New Roman", Times, serif;
 $header-font-family: "Times New Roman", Times, serif; // For titles & headings
 $caption-font-family: "Times New Roman", Times, serif; // For captions & small text
+=======
+$global-font-family: $sans-serif !default;
+$header-font-family: $sans-serif !default;
+$caption-font-family: $serif !default;
+
+>>>>>>> origin/main
 /* type scale */
 $type-size-1: 2.441em !default; // ~39.056px
 $type-size-2: 1.953em !default; // ~31.248px
@@ -66,12 +73,16 @@ $darker-gray: mix(#000, $gray, 60%) !default;
 $light-gray: mix(#fff, $gray, 50%) !default;
 $lighter-gray: mix(#fff, $gray, 90%) !default;
 
+<<<<<<< HEAD
 $background-color: #cbcef1e4; // Brighter warm sand color
 $primary-color: #c0d1f6; // Muted brown for contrast
 $text-color: #121125; // Dark brown for text
 $link-color: #514695; // Softer brown for links
 
 //$background-color: #fff !default;
+=======
+$background-color: #fff !default;
+>>>>>>> origin/main
 $code-background-color: #fafafa !default;
 $code-background-color-dark: $light-gray !default;
 $text-color: $dark-gray !default;
