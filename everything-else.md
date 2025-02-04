@@ -6,18 +6,9 @@ author_profile: true
 classes: wide
 
 ---
+ <div id="strava-stats">Loading...</div>
 
-
-
-## Citizen Cate
-
-<div class="video-container">
-  <video controls>
-    <source src="/assets/videos/DSC_0106.MOV" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
+{% include strava_stats.html %}
 
 ## My Expired film photography
 It's a necessity to remember friends and moments.
@@ -47,6 +38,4 @@ It's a necessity to remember friends and moments.
   <img src="/assets/images/everything_else/14.42.jpeg" alt="Photo 23">
 
 
-  <div id="strava-stats">Loading...</div>
-
-{% include strava_stats.html %}
+ 
