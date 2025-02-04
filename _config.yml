@@ -12,12 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-<<<<<<< HEAD
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-=======
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
->>>>>>> origin/main
-
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
@@ -30,11 +25,7 @@ url                      : "https://haniehkarimi.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-<<<<<<< HEAD
 logo                     : 
-=======
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
->>>>>>> origin/main
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -120,7 +111,7 @@ analytics:
 
 
 # Site Author
-<<<<<<< HEAD
+
 
 author:
   name             : "Hanieh Karimi"
@@ -137,18 +128,7 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailtohanieh.karimi@unh.edu"
-=======
-author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
->>>>>>> origin/main
+
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -160,17 +140,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-<<<<<<< HEAD
       url: "https://github.com/krmhanieh"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/krmhanieh/"
-=======
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
->>>>>>> origin/main
 
 # Site Footer
 footer:
@@ -192,14 +165,12 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-<<<<<<< HEAD
       url: https://www.instagram.com/krmhanieh/
     - label: "Google Scholar"
       icon: "fab fa-fw fa-google"
       url: https://scholar.google.com/citations?user=NqmK13EAAAAJ&hl=en
-=======
-      # url:
->>>>>>> origin/main
+
+
 
 
 # Reading Files
@@ -364,7 +335,4 @@ defaults:
       comments: # true
       share: true
       related: true
-<<<<<<< HEAD
       
-=======
->>>>>>> origin/main
