@@ -20,10 +20,8 @@ By formulating <span style="color: navy;">energy transfer using relative entropy
 
 
 ---
+
  
-
- I received my B.Sc. in Physics from [Isfahan University of Technology](https://english.iut.ac.ir). My undergraduate research, under the supervision of [Dr. Soroush Shakeri](https://www.linkedin.com/in/soroush-shakeri-87742855/?originalSubdomain=ir), focused on The effects of dark matter on neutron star properties. If you're interested in this topic, my friend [Nathan](https://sites.google.com/view/nathan-r-rutherford/home) has done his entire PhD in this field!
-
 I initially started my PhD with the intention of studying high-energy astrophysics, but after taking my graduate course in statistical physics, I stumbled upon interesting projects related to entropy. This curiosity, combined with my growing interest in space physics, led me to focus on entropy in magnetic reconnection and turbulence.  
 
 I am lucky to be pursuing my PhD during solar cycle 25, where I get to witness maximum solar activity—and, even more amazingly, I experienced a total solar eclipse when I was part of the Citizen Continental-America Telescope Eclipse CATE 2024. [Read more here](https://www.unh.edu/unhtoday/2024/04/student-led-project-examines-suns-corona-during-total-eclipse)!  
