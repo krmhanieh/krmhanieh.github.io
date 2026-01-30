@@ -123,11 +123,11 @@ author:
   #location         : "<a href='https://maps.app.goo.gl/8XiMSH4fQ1LrXSZNA' target=>Durham, NH</a>"
   #location         : "<a href='https://maps.app.goo.gl/8XiMSH4fQ1LrXSZNA' target='_blank'>Durham, NH</a>"
   location         : "Durham, NH"
-  email            : "mailtohanieh.karimi@unh.edu"
+  email            : "hanieh.karimi@unh.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailtohanieh.karimi@unh.edu"
+      url: "mailto:hanieh.karimi@unh.edu"
 
     - label: "Website"
       icon: "fas fa-fw fa-link"
