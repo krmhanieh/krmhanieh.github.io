@@ -78,3 +78,22 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Optional: calmer link styling */
 a { text-decoration-thickness: 1px; text-underline-offset: 2px; }
+
+
+.about-grid{
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.about-photo img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 800px){
+  .about-grid{ grid-template-columns: 1fr; }
+}
+
