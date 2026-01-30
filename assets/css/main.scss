@@ -1,9 +1,80 @@
----
+#---
 # Only the main Sass file needs front matter (the dashes are enough)
-search: false
----
+# search: false
+# ---
 
+# @charset "utf-8";
+
+# @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+# @import "minimal-mistakes"; // main partials
+
+#------
+
+
+
+---
+# Only the main Sass file needs front matter
+---
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+/* Optional: force all theme font stacks to Courier before import */
+$serif      : "Courier New", Courier, monospace;
+$sans-serif : "Courier New", Courier, monospace;
+$monospace  : "Courier New", Courier, monospace;
+
+@import "minimal-mistakes";
+
+/* -----------------------------
+   Global: Courier 12 everywhere
+------------------------------ */
+:root{
+  --base-font-size: 12pt; /* if you meant 12px, change to 12px */
+}
+
+html { font-size: var(--base-font-size); }
+
+body, button, input, textarea, select {
+  font-family: "Courier New", Courier, monospace !important;
+  line-height: 1.55;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Courier New", Courier, monospace !important;
+  font-weight: 400;
+}
+
+/* ----------------------------------------
+   Elise-like: narrower, cleaner reading col
+----------------------------------------- */
+.initial-content,
+.page,
+.archive,
+.page__inner-wrap {
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ----------------------------------------
+   Elise-like: simpler top navigation look
+----------------------------------------- */
+.masthead, .greedy-nav {
+  background: transparent !important;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+}
+
+.greedy-nav a {
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-weight: 400;
+  font-size: .9rem;
+}
+
+.greedy-nav a.site-title {
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+/* Optional: calmer link styling */
+a { text-decoration-thickness: 1px; text-underline-offset: 2px; }
