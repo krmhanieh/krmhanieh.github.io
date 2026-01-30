@@ -2,7 +2,7 @@
 layout: single
 #title: "Hanieh Karimi"
 permalink: /
-author_profile: true
+author_profile: false
 ---
  
 
